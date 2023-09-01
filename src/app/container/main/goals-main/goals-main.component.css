@@ -1,0 +1,12 @@
+/*main style rules for goals page*/
+
+.goals-main {
+    display: flex;
+    gap: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+    .goals-main {
+        flex-direction: column;
+    }
+}

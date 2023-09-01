@@ -1,0 +1,12 @@
+/*main style rules for contact page*/
+
+.contact-main {
+    display: flex;
+    gap: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+    .contact-main {
+        flex-direction: column;
+    }
+}

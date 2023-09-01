@@ -1,0 +1,161 @@
+.esco-sec {
+    height: auto;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    border-radius: 10px;
+    width: 58.5vw;
+}
+
+.esco {
+    height: auto;
+    padding: 10px;
+}
+
+.esco h2 {
+    color: dimgray;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.esco h3 {
+    margin-bottom: 10px;
+    color: crimson;
+}
+
+.esco p {
+    color: dimgray;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.button:link {
+    width: 9rem;
+    height: 2.2rem;
+    display: block;
+    padding: 10px 20px;
+    background-color: #2cb8f0;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: opacity 0.5s;
+    text-align: center;
+}
+
+.button:visited {
+    color: white;
+}
+
+.button:active {
+    color: white;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:visited {
+    color: black;
+}
+
+.link:hover {
+    color: crimson;
+}
+
+#superEscoLink2,
+#enerjiVerLink3,
+#turkSevLink3 {
+    text-decoration: underline;
+    color: blue;
+}
+#superEscoLink2:hover,
+#enerjiVerLink3:hover,
+#turkSevLink3:hover {
+    text-decoration:none;
+    color:crimson;
+}
+
+@media only screen and (max-width:  800px) {
+    .esco-sec {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    .esco h2,
+    .esco h3 {
+        font-size: 20px;
+    }
+
+    .esco p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .esco {
+        padding: 10px;
+    }
+
+    .esco h2,
+    .esco h3 {
+        font-size: 16px;
+    }
+
+    .esco p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .button {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .esco {
+        padding: 7px;
+    }
+
+    .esco h2,
+    .esco h3 {
+        font-size: 13px;
+    }
+
+    .esco p {
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 260px) {
+    .esco {
+        padding: 3px;
+    }
+
+    .esco h2,
+    .esco h3 {
+        font-size: 10px;
+    }
+
+    .esco p {
+        font-size: 8px;
+    }
+
+    .button {
+        width: 100%;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .button {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,47 @@
+/*footer Style rules*/
+
+footer {
+    background-color: rgba(0, 0, 0, 1);
+    height: 8rem;
+    width: 100%;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+
+footer img {
+    width: auto;
+    height: 3.5rem;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:visited {
+    color: black;
+}
+
+@media only screen and (max-width: 350px) {
+    footer {
+        font-size: 0.6rem;
+        line-height: 20px;    
+    }
+
+    footer img {
+        height: 3rem;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    footer {
+        font-size: 0.6rem;
+        line-height: 30px;    
+    }
+
+    footer img {
+        height: 3rem;
+    }
+}

@@ -1,0 +1,73 @@
+<header>
+  <img *ngIf="title === 'Home'; else checkHedefimiz"
+    [src]="banners[0].header_image"
+    alt="banner"/>
+  <ng-template #checkHedefimiz>
+    <img *ngIf="title === 'Hedefimiz'; else checkHikayemiz"
+    [src]="banners[1].header_image"
+    alt="banner"/>
+  </ng-template>
+  <ng-template #checkHikayemiz>
+    <img *ngIf="title === 'Hikayemiz'; else checkSuperEsco"
+    [src]="banners[2].header_image"
+    alt="banner"/>
+  </ng-template>
+  <ng-template #checkSuperEsco>
+    <img *ngIf="title === 'Super-Esco'; else checkIletisim"
+    [src]="banners[2].header_image"
+    alt="banner"/>
+  </ng-template>
+  <ng-template #checkIletisim>
+    <img *ngIf="title === 'Iletisim'; else greenPicBanner"
+    [src]="banners[3].header_image"
+    alt="banner"/>
+  </ng-template>
+  <ng-template #greenPicBanner>
+    <img [src]="banners[0].header_image"
+    alt="banner"/>
+  </ng-template>
+  <ul>
+    <li>
+      <a 
+      [ngClass]="{'active':title === 'Home'}" 
+      [routerLink]="['Home']"
+      class="header-btn">
+        <i class="fa-solid fa-bolt"></i>
+        Ana Sayfa
+      </a>
+    </li>
+    <li>
+      <a 
+      [ngClass]="{'active':title === 'Hedefimiz'}" 
+      [routerLink]="['Hedefimiz/Farkındalığımız']"
+      class="header-btn">
+        <i class="fa-solid fa-bullseye"></i>
+        Hedefimiz
+      </a>
+    </li>
+    <li>
+      <a 
+      [ngClass]="{'active':title === 'Hikayemiz'}"
+      [routerLink]="['Hikayemiz/Enerji-Verimliliği-Hikayemiz']"
+      class="header-btn">
+        <i class="fa-solid fa-hourglass-half"></i>Hikayemiz
+      </a>
+    </li>
+    <li>
+      <a 
+      [ngClass]="{'active':title === 'Super-Esco'}"
+      [routerLink]="['Super-Esco/Super-Esco-Yatırım']"
+      class="header-btn">
+        <i class="fa-solid fa-lightbulb"></i>Super Esco
+      </a>
+    </li>
+    <li>
+      <a 
+      [ngClass]="{'active':title === 'Iletisim'}"
+      [routerLink]="['Iletisim/Adres-Bilgileri']"
+      class="header-btn">
+        <i class="fa-solid fa-envelope-open-text"></i>İletişim
+      </a>
+    </li>
+  </ul>
+</header>

@@ -1,0 +1,99 @@
+/*Social bar Style rules*/
+
+#social {
+    background-color: #0aa54b;
+    height: 4rem;
+    width: 100%;
+    color: white;
+    position: sticky; /*stick to top when scroll down*/
+    top: 0;
+    font-size: 1.1rem;
+    padding: 15px;
+    z-index: 1; /*not letting other elements get in front of the bar*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#social p {
+    letter-spacing: 0.15rem;
+    font-weight: 900;
+}
+
+.icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.icons a {
+    color: white;
+}
+
+i {
+    cursor: pointer;
+}
+
+i:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 600px) {
+    #social {
+        height: 5rem;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    #social p {
+        letter-spacing: 0.08rem;
+    }
+
+    p span {
+        letter-spacing: 0.045rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #social {
+        height: 6rem;
+    }
+
+    p span {
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #social {
+        flex-direction: column;
+        align-items: center;
+        height: 7rem;
+    }
+
+    #social p {
+        letter-spacing: 0.05rem;
+        text-align: center;
+    }
+
+    p span {
+        letter-spacing: 0.01rem;
+    }
+
+    .icons {
+        gap: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    #social {
+        height: 8rem;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    #social p {
+        letter-spacing: 0.03rem;
+        font-size: 14px;
+    }
+}
+

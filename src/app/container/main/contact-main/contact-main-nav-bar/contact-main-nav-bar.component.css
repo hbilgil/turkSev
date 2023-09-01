@@ -1,0 +1,82 @@
+.contact-main-nav {
+    margin-top: 10px;
+    height: auto;
+    width: 20vw;
+}
+
+.contact-main-nav ul {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-main-nav li {
+    list-style: none;
+}
+
+.contact-main-nav-btn {
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #b4b4b4;
+    padding-left: 20px;
+    display: block;
+    font-size: 0.9rem;
+}
+
+.contact-main-nav-btn.active {
+    color: white;
+    background-color: #adadad;
+    font-weight: bold;
+}
+
+.contact-main-nav-btn:hover {
+    color: white;
+    background-color: #adadad;
+}
+
+.contact-main-nav-btn i {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 1330px) {
+    .contact-main-nav-btn {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    .contact-main-nav-btn {
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .contact-main-nav-btn {
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contact-main-nav {
+        width: 100%;
+    }
+
+    .contact-main-nav-btn {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .contact-main-nav-btn {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    .contact-main-nav-btn {
+        font-size: 0.6rem;
+    }
+}

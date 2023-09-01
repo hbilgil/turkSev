@@ -1,0 +1,7 @@
+/*Main Body Container Style rules*/
+
+#container {
+    width: 80%;
+    margin: auto;/*centered in page*/
+    height: auto;/* height is adjusted by elements in page*/
+}

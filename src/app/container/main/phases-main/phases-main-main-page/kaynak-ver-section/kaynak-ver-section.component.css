@@ -1,0 +1,106 @@
+.kaynak {
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    padding: 20px;
+    width: 58.5vw;
+}
+
+.kaynak img {
+    width: 50%;
+    height: auto;
+    float: left;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.kaynak h5 {
+    color: dimgray;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.kaynak p {
+    color: dimgray;
+    text-align: justify;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:visited {
+    color: black;
+}
+
+.link:hover {
+    color: crimson;
+}
+
+@media only screen and (max-width: 505px) {
+    .kaynak h5 {
+        font-size: 20px;
+    }
+
+    .kaynak p {
+        font-size: 14px;
+    }
+
+    .kaynak img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .kaynak {
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 400px) {
+    .kaynak {
+        padding: 10px;
+    }
+    
+    .kaynak h5 {
+        font-size: 16px;
+    }
+
+    .kaynak p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .kaynak {
+        padding: 7px;
+    }
+
+    .kaynak h5 {
+        font-size: 13px;
+    }
+
+    .kaynak p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    .kaynak {
+        padding: 3px;
+    }
+
+    .kaynak h5 {
+        font-size: 10px;
+    }
+
+    .kaynak p {
+        font-size: 8px;
+    }
+}

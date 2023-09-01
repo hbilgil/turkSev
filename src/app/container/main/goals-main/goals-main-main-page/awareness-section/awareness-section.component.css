@@ -1,0 +1,200 @@
+.goals {
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    width: 58.5vw;
+}
+
+.goals-yazi {
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /*box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);*/
+    padding: 20px;
+}
+
+.goals-yazi h5 {
+    color: dimgray;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.goals-yazi p {
+    color: dimgray;
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.normal {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+    float: left;
+}
+
+.gallery-card-3 {
+    width: 50%;
+    height: auto;
+    float: left;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.gallery-card-3 img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 0.8;
+    transition: all 0.7s;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.gallery-card-3:hover img {
+    opacity: 1;
+    transform: scale(0.97);
+}
+
+.gallery-card-3 p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+.gallery-card-3:hover p {
+    color: crimson;
+}
+
+.gallery-card-4 {
+    width: 50%;
+    height: auto;
+    float: right;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.gallery-card-4 img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 0.8;
+    transition: all 0.7s;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.gallery-card-4:hover img {
+    opacity: 1;
+    transform: scale(0.97);
+}
+
+.gallery-card-4 p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+.gallery-card-4:hover p {
+    color: crimson;
+}
+
+#turkSevLink,
+#hedeflerimizLink {
+    text-decoration: underline;
+    color: blue;
+}
+
+#turkSevLink:hover,
+#hedeflerimizLink:hover {
+    text-decoration:none;
+    color:crimson;
+}
+
+@media only screen and (max-width:  800px) {
+    .goals {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .gallery-card-3,
+    .gallery-card-4 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    .goals-yazi h5 {
+        font-size: 20px;
+    }
+
+    .goals-yazi p {
+        font-size: 14px;
+    }
+
+    .normal {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .goals-yazi {
+        padding: 10px;
+    }
+
+    .goals-yazi h5 {
+        font-size: 16px;
+    }
+
+    .goals-yazi p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .goals-yazi {
+        padding: 7px;
+    }
+
+    .goals-yazi h5 {
+        font-size: 13px;
+    }
+
+    .goals-yazi p {
+        font-size: 10px;
+    }
+
+    .gallery-card-3 p,
+    .gallery-card-4 p {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    .goals-yazi {
+        padding: 3px;
+    }
+
+    .goals-yazi h5 {
+        font-size: 10px;
+    }
+
+    .goals-yazi p {
+        font-size: 8px;
+    }
+}

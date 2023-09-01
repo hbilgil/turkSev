@@ -1,0 +1,123 @@
+.sub-sec {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-bottom: 15px;
+}
+
+.sub-sec img {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: opacity 0.8s;
+    opacity: 0.7;
+    background-color: white;
+}
+
+.sub-sec:hover img {
+    opacity: 1;
+}
+
+.sub-sec h5 {
+    color: dimgray;
+    margin: 1rem;
+    font-size: 18px;
+}
+
+.sub-sec p {
+    color: dimgray;
+    margin: 0.5rem;
+    margin-left: 1rem;
+    text-align: justify;
+    line-height: 1.2;
+    font-size: 14px;
+}
+
+.sub-sec .button:link {
+    width: 9rem;
+    height: 2.2rem;
+    display: block;
+    padding: 10px 20px;
+    background-color: #2cb8f0;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 1rem;
+    transition: opacity 0.5s;
+    text-align: center;
+}
+
+.sub-sec .button:visited {
+    color: white;
+}
+
+.sub-sec .button:active {
+    color: white;
+}
+
+.sub-sec .button:hover {
+    opacity: 0.8;
+}
+
+em {
+    color: crimson;
+}
+
+@media only screen and (max-width: 505px) {
+    .sub-sec p {
+        font-size: 14px;
+    }
+
+    .sub-sec h5 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .sub-sec h5 {
+        font-size: 16px;
+    }
+
+    .sub-sec p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .sub-sec h5 {
+        font-size: 13px;
+    }
+
+    .sub-sec p {
+        font-size: 10px;
+    }
+
+    .sub-sec .button:link {
+        width: 90%;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    .sub-sec h5 {
+        font-size: 10px;
+    }
+    
+    .sub-sec p {
+        font-size: 8px;
+    }
+
+    .sub-sec .button:link {
+        width: 80%;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .sub-sec .button:link {
+        width: 70%;
+        font-size: 9px;
+    }
+}

@@ -1,0 +1,179 @@
+header {
+    width: 100%;
+    height: 300px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+header img {
+    width: 70%;
+    height: 75%;
+    margin-top: 10px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #2cb8f0;
+    width: 100%;
+    height: 30%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+.header-btn {
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    text-decoration: none;
+}
+
+.header-btn.active {
+    color: black;
+}
+
+.header-btn:hover {
+    color: black;
+    transition: all 0.8s;
+}
+
+.header-btn i {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    header {
+        height: 250px;
+    }
+    
+    header img {
+        height: 250px;
+    }
+
+    .header-btn {
+        font-size: 18px;
+    }
+    
+    .header-btn i {
+        margin-right: 8px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    header {
+        height: 225px;
+    }
+    
+    header img {
+        height: 225px;
+    }
+
+    .header-btn {
+        font-size: 17px;
+    }
+    
+    .header-btn i {
+        margin-right: 7px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+    header {
+        height: 200px;
+    }
+    
+    header img {
+        height: 200px;
+    }
+
+    .header-btn {
+        font-size: 15px;
+    }
+    
+    .header-btn i {
+        margin-right: 6px;
+    }
+
+}
+
+@media only screen and (max-width: 505px) {
+
+    .header-btn {
+        font-size: 13px;
+    }
+    
+    .header-btn i {
+        margin-right: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    header {
+        height: 150px;
+    }
+    
+    header img {
+        height: 150px;
+    }
+
+    .header-btn {
+        font-size: 11px;
+    }
+    
+    .header-btn i {
+        margin-right: 4px;
+    }
+
+}
+
+@media only screen and (max-width: 300px) {
+    header {
+        height: 100px;
+    }
+    
+    header img {
+        height: 100px;
+    }
+
+    .header-btn {
+        font-size: 9px;
+    }
+    
+    .header-btn i {
+        margin-right: 3px;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    
+    .header-btn {
+        font-size: 7px;
+    }
+    
+    .header-btn i {
+        margin-right: 2px;
+    }
+}

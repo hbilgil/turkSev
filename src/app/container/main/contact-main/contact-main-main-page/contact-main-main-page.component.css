@@ -1,0 +1,11 @@
+main {
+    height: auto;
+    width: 75%;
+    padding: 0.5rem;
+}
+
+@media only screen and (max-width: 800px) {
+    main {
+        width: 100%;
+    }
+}

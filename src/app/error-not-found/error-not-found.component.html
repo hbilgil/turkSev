@@ -1,0 +1,11 @@
+<div class="error-container">
+    <!--if the user intentionally or non-intentionally writes a router extension in browser, an error page is shown-->
+    <h1>404: Aradığınız Sayfa Bulunamadı</h1>
+    <p>Aradığınız sayfaya ulaşılamadı veya bu sayfaya giriş izniniz yok!</p>
+    <p>Lütfen tekrar deneyiniz ya da menüden istenilen sayfaya gidiniz...</p>
+    <div class="flex">
+        <a [routerLink]="['/Home']">Ana Sayfaya Gidin</a>
+        <a [routerLink]="['/Iletisim/Adres-Bilgileri']">Bizimle İletişime Geçin</a>
+    </div>
+    <img src="assets/not-found.jpg"/>
+</div>

@@ -1,0 +1,88 @@
+.goals-main-nav {
+    margin-top: 10px;
+    height: auto;
+    width: 20vw;
+}
+
+.goals-main-nav ul {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.goals-main-nav li {
+    list-style: none;
+}
+
+.goals-main-nav-btn {
+    /*cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: black;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    border-bottom: 1px solid #b4b4b4;
+    padding-left: 20px;
+    font-size: 0.9rem;
+    text-align: left;*/
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #b4b4b4;
+    padding-left: 20px;
+    display: block;
+    font-size: 0.9rem;
+}
+
+.goals-main-nav-btn.active {
+    color: white;
+    background-color: #adadad;
+    font-weight: bold;
+}
+
+.goals-main-nav-btn:hover {
+    color: white;
+    background-color: #adadad;
+}
+
+.goals-main-nav-btn i {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .goals-main-nav-btn {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .goals-main-nav {
+        width: 100%;
+    }
+
+    .goals-main-nav-btn {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .goals-main-nav-btn {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    .goals-main-nav-btn {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .goals-main-nav-btn {
+        font-size: 0.6rem;
+    }
+}
