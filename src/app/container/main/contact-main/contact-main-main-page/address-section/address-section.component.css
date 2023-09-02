@@ -48,6 +48,44 @@ iframe {
     color: crimson;
 }
 
+@media only screen and (max-width: 1300px) {
+    .address-sec {
+        width: 58.35vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .address-sec {
+        width: 58.2vw;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .address-sec {
+        width: 58.05vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .address-sec {
+        width: 57.9vw;
+    }
+
+    .ozel {
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: center;
+        line-height: 1.5;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .address-sec {
+        width: 57.75vw;
+    }
+}
+
 @media only screen and (max-width:  800px) {
     .address-sec {
         width: 100%;

@@ -86,6 +86,36 @@
     color:crimson;
 }
 
+@media only screen and (max-width: 1300px) {
+    .surec {
+        width: 58.35vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .surec {
+        width: 58.2vw;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .surec {
+        width: 58.05vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .surec {
+        width: 57.9vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .surec {
+        width: 57.75vw;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     .gallery-card-5 {
         width: 100%;

@@ -7,6 +7,35 @@
     width: 58.5vw;
 }
 
+@media only screen and (max-width: 1300px) {
+    .enerji-v {
+        width: 58.35vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .enerji-v {
+        width: 58.2vw;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .enerji-v {
+        width: 58.05vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .enerji-v {
+        width: 57.9vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .enerji-v {
+        width: 57.75vw;
+    }
+}
 
 @media only screen and (max-width: 800px) {
     .enerji-v {

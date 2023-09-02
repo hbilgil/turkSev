@@ -42,6 +42,42 @@
     color: crimson;
 }
 
+@media only screen and (max-width: 1300px) {
+    .kaynak {
+        width: 58.35vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .kaynak {
+        width: 58.2vw;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .kaynak {
+        width: 58.05vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .kaynak {
+        width: 57.9vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .kaynak {
+        width: 57.75vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .kaynak {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 505px) {
     .kaynak h5 {
         font-size: 20px;
@@ -54,13 +90,6 @@
     .kaynak img {
         width: 100%;
     }
-}
-
-@media only screen and (max-width: 800px) {
-    .kaynak {
-        width: 100%;
-    }
-    
 }
 
 @media only screen and (max-width: 400px) {
