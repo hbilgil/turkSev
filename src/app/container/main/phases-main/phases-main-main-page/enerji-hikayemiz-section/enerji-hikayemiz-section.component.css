@@ -1,3 +1,91 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+figure.snip2 {
+    font-family: 'Raleway', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    width: 60%;
+    height: auto;
+    float: left;
+    background-color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    border: 1px solid rgba(105, 105, 105, 0.508);
+    color: #000000;
+    text-align: center;
+    -webkit-perspective: 50em;
+    perspective: 50em;
+}
+
+figure.snip2 * {
+    -webkit-box-sizing: padding-box;
+    box-sizing: padding-box;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+figure.snip2 a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+figure.snip2 img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+figure.snip2 figcaption {
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+}
+
+figure.snip2 h4 {
+    margin: 0;
+    font-weight: 800;
+}
+  
+figure.snip2:after {
+    background-color: aliceblue;
+    position: absolute;
+    content: "";
+    display: block;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    opacity: 0;
+}
+
+figure.snip2:hover figcaption {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 1;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+figure.snip2:hover:after {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    opacity: 0.9;
+}
+
 .surec {
     height: auto;
     border-radius: 10px;
@@ -19,6 +107,7 @@
     line-height: 1.4;
 }
 
+/*
 .gallery-card-5 {
     width: 60%;
     height: auto;
@@ -56,6 +145,7 @@
 .gallery-card-5:hover p {
     color: crimson;
 }
+*/
 
 .link {
     text-decoration: none;
@@ -117,8 +207,9 @@
 }
 
 @media only screen and (max-width: 800px) {
-    .gallery-card-5 {
+    figure.snip2 {
         width: 100%;
+        margin-bottom: 20px;
     }
 
     .surec {
@@ -161,10 +252,6 @@
     
     .surec p {
         font-size: 10px;
-    }
-
-    .gallery-card-5 p {
-        font-size: 9px;
     }
 }
 

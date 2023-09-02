@@ -1,3 +1,90 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+figure.snip {
+    font-family: 'Raleway', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    height: auto;
+    float: right;
+    background-color:white;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    -webkit-perspective: 50em;
+    perspective: 50em;
+}
+
+figure.snip * {
+    -webkit-box-sizing: padding-box;
+    box-sizing: padding-box;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+figure.snip a{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+figure.snip img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+figure.snip figcaption {
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+}
+
+figure.snip h4 {
+    margin: 0;
+    font-weight: 800;
+}
+  
+figure.snip:after {
+    background-color: aliceblue;
+    position: absolute;
+    content: "";
+    display: block;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    opacity: 0;
+}
+
+figure.snip:hover figcaption {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 1;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+figure.snip:hover:after {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    opacity: 0.9;
+}
+
 .enerji-v-yazi {
     height: auto;
     border-top-left-radius: 10px;
@@ -49,6 +136,7 @@ tr:nth-child(odd) td {
     background-color: rgb(245,245,245);
 }
 
+/*
 .gallery-card-2 {
     width: 40%;
     height: auto;
@@ -86,6 +174,7 @@ tr:nth-child(odd) td {
 .gallery-card-2:hover p {
     color: crimson;
 }
+*/
 
 .link {
     text-decoration: none;
@@ -113,8 +202,9 @@ tr:nth-child(odd) td {
 }
 
 @media only screen and (max-width: 600px) {
-    .gallery-card-2 {
+    figure.snip {
         width: 100%;
+        margin-bottom: 20px;
     }
 }
 
@@ -163,10 +253,6 @@ tr:nth-child(odd) td {
 
     .enerji-v-yazi p {
         font-size: 10px;
-    }
-
-    .gallery-card-2 p {
-        font-size: 9px;
     }
 }
 
